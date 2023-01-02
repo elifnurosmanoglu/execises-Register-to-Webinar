@@ -1,0 +1,167 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.container {
+  background-color: #23252f;
+  display: flex;
+  color: #fff;
+}
+.colon1 {
+  width: 100%;
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+.colon2 {
+  width: 100%;
+  background-color: #464856;
+}
+span,
+p,
+label,
+.btn {
+  font-family: "IBM Plex Sans", sans-serif;
+}
+h1,
+h3,
+h4,
+h5 {
+  font-family: "Merriweather", serif;
+  font-size: 35px;
+}
+h2 {
+  font-family: "Merriweather", serif;
+  font-size: 25px;
+}
+.profile h5 {
+  font-family: "Merriweather", serif;
+  font-size: 15px;
+  padding-left: 8px;
+}
+.profile h4 {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+}
+
+.form-element {
+  flex-direction: column;
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.form-element input {
+  background-color: #23252f;
+  border: 1px solid #464856;
+  color: #fff;
+  padding: 15px;
+}
+.form-element input::placeholder {
+  padding: 10px;
+  color: #fff;
+  opacity: 0.5;
+}
+.form-element select {
+  width: 100%;
+  background-color: #23252f;
+  border: 1px solid #464856;
+  color: #fff;
+  padding: 15px;
+}
+.form-element-text input {
+  width: 100%;
+  height: 100px;
+  background-color: #23252f;
+  border: 1px solid #464856;
+  color: #fff;
+}
+.form-element-text input::placeholder {
+  padding-left: 10px;
+  color: #fff;
+  opacity: 0.5;
+}
+.form-element-text {
+  margin-top: 20px;
+}
+.form-checkbox input {
+  position: relative;
+  margin: 10px 10px 0 0;
+  width: 20px;
+  height: 20px;
+}
+
+.form-checkbox input::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #23252f;
+  border: 1px solid #464856;
+  border-radius: 2px;
+}
+
+.form-checkbox input:checked::after {
+  background-color: #23252f;
+  border: 1px solid #464856;
+}
+
+.form-checkbox input:checked::before {
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid #fff;
+  border-left: 2px solid #fff;
+  top: 5px;
+  left: 5px;
+  width: 10px;
+  height: 5px;
+  z-index: 1;
+  transform: rotate(310deg);
+}
+.button .btn {
+  width: 250px;
+  height: 50px;
+  background-color: #fff;
+  color: black;
+  border: 0 solid;
+  margin-top: 20px;
+}
+.social {
+  display: flex;
+  margin-bottom: 100px;
+}
+.profile {
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.social img {
+  margin-right: 10px;
+}
+.guest{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+}
+.guest .name{
+    flex-direction: column;
+    display: flex;
+}
+.guest .name label{
+    font-size: 15px;
+}
+.guest .name span{
+    font-size: 12px;
+}
+.guest .image img{
+    width: 45px;
+    height: auto;
+    margin-right: 5px;
+}
